@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li,
+nav button {
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+nav div div button{
+    background-color: transparent;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    
+
+}
+
+nav div div li {
+    margin-top: 10px;
+    
+}
+
+.features{
+    display: none;
+}
+
+main div button{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 15em
+
+}
+
+
+main div button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.backgroundimage{
+    background-image: url("./images/image-hero-desktop.png");
+    width: 30em;
+    height:90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+main div{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30em;
+    
+}
+
+
+main div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 0;
+}
+
+main div:nth-child(2) h1{
+    font-size: 75px;
+}
+
+main div:nth-child(2) div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 10em;
+    gap: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+
+}
+
